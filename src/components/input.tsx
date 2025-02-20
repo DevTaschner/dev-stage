@@ -7,19 +7,7 @@ export const InputContent = ({
   return (
     <div
       className={[
-        "group-data-[error=true]:!ring-danger flex h-12 w-full items-center gap-2 rounded-xl bg-gray-800 px-4 text-gray-400 ring-1 ring-gray-600 transition-colors group-focus-within:text-gray-100 focus-within:ring-gray-100",
-        className,
-      ].join(" ")}
-      {...props}
-    />
-  );
-};
-
-export const InputIcon = ({ className, ...props }: ComponentProps<"span">) => {
-  return (
-    <span
-      className={[
-        "group-data-[error=true]:!text-danger group-[&:not(:has(input:placeholder-shown))]:text-gray-100",
+        "group-data-[error=true]:!ring-danger group-data-[error=true]:!text-danger flex h-12 w-full items-center gap-2 rounded-xl bg-gray-800 px-4 text-gray-400 ring-1 ring-gray-600 transition-all duration-200 group-focus-within:text-gray-100 group-[&:not(:has(input:placeholder-shown))]:text-gray-100 focus-within:ring-gray-100",
         className,
       ].join(" ")}
       {...props}
