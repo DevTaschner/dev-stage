@@ -17,7 +17,7 @@ const Home = () => {
           src={Logo}
           width={108.5}
           height={30}
-          className="mx-auto h-[24px] w-[86.8px] md:mx-0 md:h-auto md:w-auto"
+          className="mx-auto md:mx-0"
         />
         <h1 className="font-heading flex flex-col text-4xl leading-none font-medium text-gray-100 md:text-7xl">
           <span className="text-blue">CodeCraft</span> Summit 2025
